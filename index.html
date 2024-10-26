@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <img src="https://i.pinimg.com/originals/6e/6b/19/6e6b190af38425140a571a7a1f3fee57.gif" alt="imagem_de_fundo">
+
+    <div class="container">
+        <h1>Conversor de Temperatura</h1>
+
+        <div class="form">
+            <div class="celsius">
+                <label for="inputCelsius">Converter Temperatura de °C para Fahrenheit</label>
+                <div class="conversao">
+                    <textarea name="inputCelsius" id="inputCelsius" placeholder="Temp em °C"></textarea>
+                    <div class="valor_convertido_f">Resultado °F</div>
+                </div>
+            </div>
+
+            <div class="fahrenheit">
+                <label for="inputFahrenheit">Converter a Temperatura de °F para Celsius</label>
+                <div class="conversao">
+                    <textarea name="inputFahrenheit" id="inputFahrenheit" placeholder="Temp em °F"></textarea>
+                    <div class="valor_convertido_c">Resultado °C</div>
+                </div>
+            </div>
+            <button id="toggle">Converter</button>
+        </div>
+    </div>
+</body>
+</html>
